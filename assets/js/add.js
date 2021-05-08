@@ -8,5 +8,11 @@ function reverseBits (n) {
   let binary = (n).toString(2);
   let reverseBinary = binary.split("").reverse().join("");
   let nonBinary = parseInt(reverseBinary, 2);
-  console.log(nonBinary);
+  return nonBinary;
+}
+
+//get unique words function
+function getUniqueWords (str) {
+  let uniqueWords = [...new Set(str.split(' '))];
+  return uniqueWords;
 }

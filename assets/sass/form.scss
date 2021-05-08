@@ -5,12 +5,22 @@
   padding: 20px 0;
 }
 
+.form__title {
+  color: blue;
+}
+
 .field {
   display: flex;
   flex-direction: column;
   margin-bottom: 10px;
 }
 
-.form_submit {
+.form__submit {
   margin: 10px 0;
+  padding: 5px 10px;
+
+  background-color: blue;
+  color: #fff;
+  border: none;
+  border-radius: 10%;
 }
