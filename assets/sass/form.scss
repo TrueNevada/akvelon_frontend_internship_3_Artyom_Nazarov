@@ -1,0 +1,16 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.form_submit {
+  margin: 10px 0;
+}

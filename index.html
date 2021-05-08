@@ -1,14 +1,68 @@
 <!DOCTYPE html>
 <html lang="ru">
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Шаблон проекта</title>
-  <link href="css/style.css" rel="stylesheet">
-</head>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akvelon Internship</title>
+    <link href="css/style.css" rel="stylesheet">
+  </head>
 
-<body></body>
+  <body>
+    <div class="container">
+      <div class="slider">
+        <div class="item">
+            <img src="img/slide1.jpg" alt="Первый слайд">
+            <div class="slideText">Слайд 1</div>
+        </div>
+
+        <div class="item">
+            <img src="img/slide2.jpg" alt="Второй слайд">
+            <div class="slideText">Слайд 2</div>
+        </div>
+
+        <div class="item">
+            <img src="img/slide3.jpg" alt="Третий слайд">
+            <div class="slideText">Слайд 3</div>
+        </div>
+
+        <div class="item">
+          <img src="img/slide4.jpg" alt="Третий слайд">
+          <div class="slideText">Слайд 4</div>
+        </div>
+
+        <div class="item">
+          <img src="img/slide5.jpg" alt="Третий слайд">
+          <div class="slideText">Слайд 5</div>
+        </div>
+
+        <a class="prev">&#10094;</a>
+        <a class="next">&#10095;</a>
+      </div>
+    </div>
+
+    <div class="container">
+      <form class="form" method="" autocomplete="off">
+        <div class="field">
+          <label for="full-name" class="field_label">Full Name:</label>
+          <input type="text" class="field_input" id="full-name" value="" placeholder="" pattern="^[a-zA-Z\s]{1,120}$" required>
+        </div>
+        <div class="field">
+          <label for="e-mail" class="field_label">E-Mail:</label>
+          <input type="email" class="field_input" id="e-mail" value="" placeholder="" required>
+        </div>
+        <div class="field">
+          <label for="password" class="field_label">Password:</label>
+          <input type="text" class="field_input" id="password" value="" placeholder="" minlength="8" required>
+        </div>
+        <button class="form_submit" type="submit">Sign Up</button>
+      </form>
+    </div>
+
+    <script src="js/slider.js"></script>
+    <script src="js/form.js"></script>
+
+  </body>
 
 </html>
